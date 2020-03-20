@@ -1,0 +1,100 @@
+body{
+
+	background:linear-gradient(to right,red,blue);
+	background-size: cover;
+}
+
+.navigation{
+
+     height:50px;
+      text-align: right;
+     
+}
+ul li{
+	display: inline-block;
+	list-style: none;
+}
+ul li a{
+
+	border-radius: 10px;
+	color: white;
+     margin: 8px;
+     font-size: 15px;
+     font-family: 'Georgia';
+     padding: 5px;
+}
+ul li a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	background-color:white;
+	color: black;
+	font-family: helvetica;
+	transition: all 100ms ease-in-out;
+
+
+
+
+}
+.logo img{
+position: absolute;
+ top:10%;
+left:49%;
+transform:translate(-50%,-50%);
+
+}
+.button
+{
+position: absolute;
+ top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+
+}
+.btn-xl{
+ padding:1rem 2rem;
+ text-align: center;
+ border-radius: 30px;
+}
+.btn-primary{
+	background-color: #dcdcdc;
+	color: black;
+	border-color: #dcdcdc;
+}
+.btn-primary:hover{
+	background-color: #a9a9a9;
+	color:black;
+	border-width: 4px;
+	transition: all 50ms ;
+	transition-duration: 50ms;
+	
+}
+.header{
+position: absolute;
+ top:30%;
+left:50%;
+transform:translate(-50%,-50%);
+
+}
+h1{
+	font-family: montiserrat;
+	font-size: 5rem;
+	color: #f0ffff;
+	animation-name: flash;
+	animation-duration: 2s;
+}
+span{
+position: absolute;
+ top:70%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+
+
+span a{
+	color: black;
+	font-size: 2rem;
+}
+span a:hover{
+	color: cornsilk;
+}
